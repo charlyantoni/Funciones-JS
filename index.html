@@ -23,6 +23,23 @@
                 <input type="text" id="nombre" placeholder="Ingresa tu nombre por favor"></br>
                 <button class="botones" type="button" onclick="ejercicio1()">Saludar!</button>
             </div></br>
+             <div class="cajaBotones">
+                <p class="DescripjEjercicio">Ejercicio 4</p>
+                <p class="DescripText">En este ejercicio se multiplican, suman y obtiene el exponente de dos valores ingresados mediante un textBox, retornando el resultado en otro textBox</p>
+                <input type="number" id="num1eje4" placeholder="Ingresa un numero"> </br>
+                <input type="number" id="num2eje4" placeholder="Ingresa otro numero"></br>
+                <textarea id="resEj4" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
+                <button class="botones" type="button" onclick="ejercicio4()">Multiplicar</button> 
+            </div></br>
+            <div class="cajaBotones">
+                <p class="DescripjEjercicio">Ejercicio 7</p>
+                <p class="DescripText">En este ejercicio se genera un numero aleatorio, limitandose a llegar hasta el numero introducido por el ususario </p>
+                <input type="text" id="aleat" placeholder="Ingresa un numero para generar un numero aleatorio"> </br>
+                <textarea id="resAleat" rows="3" disabled="disabled" placeholder="Resultado"></textarea></br>
+                <button class="botones" type="button" onclick="ejercicio7()">Aleatorio</button> 
+            </div>
+        </section>
+        <section class="section col-3" id="dos">
             <div class="cajaBotones">
                 <p class="DescripjEjercicio">Ejercicio 2</p>
                 <p class="DescripText">En este ejercicio se multiplican dos valores ingresados mediante un textBox, retornando el resultado en otro textBox</p>
@@ -30,28 +47,7 @@
                 <input type="number" id="num2mult" placeholder="Ingresa otro numero"></br>
                 <textarea id="resMult" rows="3" disabled="disabled" placeholder="Resultado"></textarea></br>
                 <button class="botones" type="button" onclick="ejercicio2()">Multiplicar</button> 
-            </div>
-            </br>
-
-            <div class="cajaBotones">
-                <p class="DescripjEjercicio">Ejercicio 3</p>
-                <p class="DescripText">En este ejercicio se suman dos valores ingresados mediante un textBox, retornando el resultado en otro textBox</p>
-                <input type="number" id="num1sum" placeholder="Ingresa un numero"> </br>
-                <input type="number" id="num2sum" placeholder="Ingresa otro numero"></br>
-                <textarea id="resSum" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
-                <button class="botones" type="button" onclick="ejercicio3()">Sumar</button> 
-            </div>
-        </section>
-        <section class="section col-3" id="dos">
-            <div class="cajaBotones">
-                <p class="DescripjEjercicio">Ejercicio 4</p>
-                <p class="DescripText">En este ejercicio se multiplican, suman y obtiene el exponente de dos valores ingresados mediante un textBox, retornando el resultado en otro textBox</p>
-                <input type="number" id="num1eje4" placeholder="Ingresa un numero"> </br>
-                <input type="number" id="num2eje4" placeholder="Ingresa otro numero"></br>
-                <textarea id="resEj4" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
-                <button class="botones" type="button" onclick="ejercicio4()">Multiplicar</button> 
-            </div>
-            </br>
+            </div></br>
             <div class="cajaBotones">
                 <p class="DescripjEjercicio">Ejercicio 5</p>
                 <p class="DescripText">En este ejercicio se ingresan don nombres ingresados mediante un textBox, retornando el resultado en un parrafo</p>
@@ -59,29 +55,30 @@
                 <input type="text" id="noom2" placeholder="Ingresa otro nombre"></br>
                 <div id="saludo" class="parr"></div>
                 <button class="botones" type="button" onclick="ejercicio5()">Saludar</button> 
-            </div></br>            
-            <div class="cajaBotones">
-                <p class="DescripjEjercicio">Ejercicio 6</p>
-                <p class="DescripText">En este ejercicio se convierten grados celcius introducido por el usuario, a grados farenheit</p>
-                <input type="text" id="temp" placeholder="Ingresa un valor en grados celcius"> </br>
-                <textarea id="resTemp" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
-                <button class="botones" type="button" onclick="ejercicio6()">Convertir a Farenheit</button> 
-            </div>   
-        </section>
-        <section class="section col-3" id="tres">
-            <div class="cajaBotones">
-                <p class="DescripjEjercicio">Ejercicio 7</p>
-                <p class="DescripText">En este ejercicio se genera un numero aleatorio a partir de otro numero introducido por el usuario </p>
-                <input type="text" id="aleat" placeholder="Ingresa un numero para generar un numero aleatorio"> </br>
-                <textarea id="resAleat" rows="3" disabled="disabled" placeholder="Resultado"></textarea></br>
-                <button class="botones" type="button" onclick="ejercicio7()">Aleatorio</button> 
-            </div></br>    
+            </div></br>  
             <div class="cajaBotones">
                 <p class="DescripjEjercicio">Ejercicio 8</p>
                 <p class="DescripText" id="textooo">En este ejercicio se cambia el color de un elemento con JS </p>
                 <button class="botones" type="button" id="textooo" onclick="ejercicio8('red')">Rojo</button> 
                 <button class="botones" type="button" id="textooo" onclick="ejercicio8('black')">Negro</button> 
                 <button class="botones" type="button" id="textooo" onclick="ejercicio8('white')">Blanco</button> 
+            </div>   
+        </section>
+        <section class="section col-3" id="tres">
+            <div class="cajaBotones">
+                <p class="DescripjEjercicio">Ejercicio 3</p>
+                <p class="DescripText">En este ejercicio se suman dos valores ingresados mediante un textBox, retornando el resultado en otro textBox</p>
+                <input type="number" id="num1sum" placeholder="Ingresa un numero"> </br>
+                <input type="number" id="num2sum" placeholder="Ingresa otro numero"></br>
+                <textarea id="resSum" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
+                <button class="botones" type="button" onclick="ejercicio3()">Sumar</button> 
+            </div></br>
+             <div class="cajaBotones">
+                <p class="DescripjEjercicio">Ejercicio 6</p>
+                <p class="DescripText">En este ejercicio se convierten grados celcius introducido por el usuario, a grados farenheit</p>
+                <input type="text" id="temp" placeholder="Ingresa un valor en grados celcius"> </br>
+                <textarea id="resTemp" rows="3" disabled="disabled" placeholder="Resultado" ></textarea></br>
+                <button class="botones" type="button" onclick="ejercicio6()">Convertir a Farenheit</button> 
             </div></br>               
             <div class="cajaBotones">
                 <p class="DescripjEjercicio">Ejercicio 9</p>
