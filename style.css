@@ -100,7 +100,7 @@ textarea, input{
     resize: none;
     padding: 5px;
 }
-.DescripText .parr{
+.DescripText{
     font-size: 18px;
     color:rgb(255, 255, 255);
     margin: 10px;
@@ -114,6 +114,13 @@ textarea, input{
     text-align: center;
     margin: 20px;
 
+}
+
+.parr{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
 }
 
 
