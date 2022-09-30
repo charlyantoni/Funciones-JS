@@ -100,7 +100,7 @@ textarea, input{
     resize: none;
     padding: 5px;
 }
-.DescripText{
+.DescripText .parr{
     font-size: 18px;
     color:rgb(255, 255, 255);
     margin: 10px;
